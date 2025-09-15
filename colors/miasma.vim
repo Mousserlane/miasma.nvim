@@ -24,6 +24,9 @@ if exists("g:miasma_transparent") && g:miasma_transparent>= 1
   hi Directory guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
   hi StatusLine guifg=#d7c483 guibg=NONE guisp=NONE ctermbg=NONE blend=NONE gui=bold
   hi StatusLineNC guifg=#666666 guibg=NONE guisp=NONE ctermbg=NONE blend=NONE gui=bold
+  hi FzfLuaNormal guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
+  hi FzfLuaBorder guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
+  hi FzfLuaTitle guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
 else
   hi Normal guifg=#D7C483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
   hi LineNr guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
