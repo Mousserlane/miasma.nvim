@@ -24,8 +24,9 @@ if exists("g:miasma_transparent") && g:miasma_transparent>= 1
   hi Directory guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
   hi StatusLine guifg=#d7c483 guibg=NONE guisp=NONE ctermbg=NONE blend=NONE gui=bold
   hi StatusLineNC guifg=#666666 guibg=NONE guisp=NONE ctermbg=NONE blend=NONE gui=bold
-  hi FzfLuaBorder guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
-  hi FzfLuaTitle guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
+  hi SnacksBorder guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
+  hi SnacksBorder guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
+  hi SnacksTitle guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
 else
   hi Normal guifg=#D7C483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
   hi LineNr guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
@@ -36,6 +37,10 @@ else
   hi Directory guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
   hi StatusLine guifg=#d7c483 guibg=#222222 guisp=NONE blend=NONE gui=bold
   hi StatusLineNC guifg=#666666 guibg=#222222 guisp=NONE blend=NONE gui=bold
+  hi SnacksBorder guifg=#685742 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+  hi SnacksPromptBorder guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+  hi SnacksTitle guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+
 endif
 
 hi Boolean guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=NONE
