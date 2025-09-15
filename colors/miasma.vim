@@ -40,7 +40,6 @@ else
   hi SnacksPickerBorder guifg=#685742 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
   hi SnacksPickerPromptBorder guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
   hi SnacksPickerTitle guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
-
 endif
 
 hi Boolean guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -290,6 +289,8 @@ hi! link TelescopeResultsFileIcon Special
 hi! link TelescopeResultsTitle TelescopeTitle
 hi! link TelescopeSelection Visual
 hi! link SnacksPicker Normal
+hi! link SnacksPickerList Normal
+hi! link SnacksPickerPreview Normal
 hi! link @text.diff.add DiffAdd
 hi! link @text.diff.delete DiffDelete
 hi! link @text.literal Comment
