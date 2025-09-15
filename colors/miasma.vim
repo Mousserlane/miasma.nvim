@@ -175,11 +175,11 @@ hi! link Float Number
 hi! link FloatTitle Title
 hi! link @function.builtin Special
 hi! link @function Function
-hi! link FzfLuaBorder Normal
+"hi! link FzfLuaBorder Normal
 hi! link FzfLuaCursor Cursor
 hi! link FzfLuaCursorLine CursorLine
 hi! link FzfLuaCursorLineNr CursorLineNr
-hi! link FzfLuaNormal Normal
+"hi! link FzfLuaNormal Normal
 hi! link FzfLuaScrollFloatEmpty PmenuSbar
 hi! link FzfLuaScrollFloatFull PmenuThumb
 hi! link FzfLuaSearch IncSearch
