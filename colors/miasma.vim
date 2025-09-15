@@ -24,7 +24,6 @@ if exists("g:miasma_transparent") && g:miasma_transparent>= 1
   hi Directory guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
   hi StatusLine guifg=#d7c483 guibg=NONE guisp=NONE ctermbg=NONE blend=NONE gui=bold
   hi StatusLineNC guifg=#666666 guibg=NONE guisp=NONE ctermbg=NONE blend=NONE gui=bold
-  hi FzfLuaNormal guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
   hi FzfLuaBorder guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
   hi FzfLuaTitle guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
 else
@@ -175,11 +174,11 @@ hi! link Float Number
 hi! link FloatTitle Title
 hi! link @function.builtin Special
 hi! link @function Function
-"hi! link FzfLuaBorder Normal
+hi! link FzfLuaBorder Normal
 hi! link FzfLuaCursor Cursor
 hi! link FzfLuaCursorLine CursorLine
 hi! link FzfLuaCursorLineNr CursorLineNr
-"hi! link FzfLuaNormal Normal
+hi! link FzfLuaNormal Normal
 hi! link FzfLuaScrollFloatEmpty PmenuSbar
 hi! link FzfLuaScrollFloatFull PmenuThumb
 hi! link FzfLuaSearch IncSearch
